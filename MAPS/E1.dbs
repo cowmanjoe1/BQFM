@@ -14,7 +14,7 @@ maps
 			resource0
 			{
 				type = 0;
-				location = "C:\\Users\\brade\\OneDrive\\Desktop\\wads\\doom2.wad";
+				location = "C:\\Users\\brade\\OneDrive\\Desktop\\GZDOOM\\doom2.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -49,10 +49,22 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 1361.077f;
-		viewpositiony = 948.368f;
-		viewscale = 0.2802123f;
+		viewpositionx = 1252.096f;
+		viewpositiony = 756.4392f;
+		viewscale = 0.2155467f;
 		scriptcompiler = "zdoom_acs.cfg";
+		
+		plugins
+		{
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+				}
+			}
+		}
 		
 		fieldtypes
 		{
@@ -69,16 +81,29 @@ maps
 			
 			sector
 			{
-				xpanningceiling = 1;
-				ypanningceiling = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
-				rotationceiling = 17;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
-				rotationfloor = 17;
+				rotationfloor = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;
+			}
+			
+			thing
+			{
+				1 = 3;
+				2 = 3;
+				4 = 3;
+				32 = 3;
+				64 = 3;
+				128 = 3;
+				256 = 3;
+				512 = 3;
+				1024 = 3;
 			}
 		}
 	}
