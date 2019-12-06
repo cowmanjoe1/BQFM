@@ -25,9 +25,9 @@ maps
 		}
 		defaulttoptexture = "ROCKRED1";
 		overridemiddletexture = false;
-		viewpositionx = 25.87361f;
-		viewpositiony = 3150.35f;
-		viewscale = 5.150614f;
+		viewpositionx = -634.7653f;
+		viewpositiony = 1422.525f;
+		viewscale = 2.344367f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -37,7 +37,7 @@ maps
 			backoffsety = 0;
 			backoffsetx = 0;
 			backscalex = 100;
-			gridsize = 1f;
+			gridsize = 4f;
 			background = "";
 			backsource = 0;
 			backscaley = 100;
@@ -57,12 +57,17 @@ maps
 		fieldtypes
 		{
 			
+			linedef
+			{
+				alpha = 1;
+			}
+			
 			sidedef
 			{
 				offsetx_mid = 1;
 				offsety_mid = 1;
-				offsetx_top = 1;
 				offsetx_bottom = 1;
+				offsetx_top = 1;
 				offsety_bottom = 1;
 				offsety_top = 1;
 			}
