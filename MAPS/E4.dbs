@@ -13,21 +13,12 @@ maps
 		
 		resources
 		{
-			
-			resource0
-			{
-				type = 0;
-				location = "D:\\My Stuff\\dewm\\DOOM2.WAD";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-			}
 		}
 		defaulttoptexture = "ROCKRED1";
 		overridemiddletexture = false;
-		viewpositionx = -634.7653f;
-		viewpositiony = 1422.525f;
-		viewscale = 2.344367f;
+		viewpositionx = 1727.594f;
+		viewpositiony = 1970.98f;
+		viewscale = 2.971517f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -37,7 +28,7 @@ maps
 			backoffsety = 0;
 			backoffsetx = 0;
 			backscalex = 100;
-			gridsize = 4f;
+			gridsize = 1f;
 			background = "";
 			backsource = 0;
 			backscaley = 100;
@@ -60,6 +51,7 @@ maps
 			linedef
 			{
 				alpha = 1;
+				locknumber = 0;
 			}
 			
 			sidedef
@@ -68,22 +60,25 @@ maps
 				offsety_mid = 1;
 				offsetx_bottom = 1;
 				offsetx_top = 1;
-				offsety_bottom = 1;
 				offsety_top = 1;
+				offsety_bottom = 1;
 			}
 			
 			sector
 			{
-				rotationfloor = 1;
+				rotationfloor = 17;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
-				xscalefloor = 1;
-				yscalefloor = 1;
-				floorglowcolor = 0;
-				floorglowheight = 1;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationceiling = 1;
+				lightcolor = 0;
+				xscalefloor = 1;
+				yscalefloor = 1;
+				damagetype = 2;
+				damageamount = 0;
+				floorglowcolor = 0;
+				floorglowheight = 1;
+				rotationceiling = 17;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
 			}
