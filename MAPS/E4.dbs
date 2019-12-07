@@ -16,9 +16,9 @@ maps
 		}
 		defaulttoptexture = "ROCKRED1";
 		overridemiddletexture = false;
-		viewpositionx = 1727.594f;
-		viewpositiony = 1970.98f;
-		viewscale = 2.971517f;
+		viewpositionx = 668.0145f;
+		viewpositiony = 1800.191f;
+		viewscale = 1.352534f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -66,7 +66,7 @@ maps
 			
 			sector
 			{
-				rotationfloor = 17;
+				rotationfloor = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
 				xpanningceiling = 1;
@@ -78,7 +78,7 @@ maps
 				damageamount = 0;
 				floorglowcolor = 0;
 				floorglowheight = 1;
-				rotationceiling = 17;
+				rotationceiling = 1;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
 			}
