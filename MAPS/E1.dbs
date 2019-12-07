@@ -29,7 +29,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 128f;
+			gridsize = 256f;
 		}
 		defaultfloortexture = "RROCK03";
 		defaultceiltexture = "F_SKY1";
@@ -49,9 +49,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 1521.248f;
-		viewpositiony = 844.9474f;
-		viewscale = 0.2155457f;
+		viewpositionx = 2842.889f;
+		viewpositiony = 886.2465f;
+		viewscale = 0.1658065f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		plugins
@@ -85,10 +85,10 @@ maps
 				ypanningfloor = 1;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationceiling = 1;
+				rotationceiling = 17;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
-				rotationfloor = 1;
+				rotationfloor = 17;
 				xscalefloor = 1;
 				yscalefloor = 1;
 				lightcolor = 0;
