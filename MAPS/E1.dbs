@@ -49,9 +49,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 1252.096f;
-		viewpositiony = 756.4392f;
-		viewscale = 0.2155467f;
+		viewpositionx = -83.01465f;
+		viewpositiony = 938.6014f;
+		viewscale = 0.2802096f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		plugins
@@ -85,25 +85,13 @@ maps
 				ypanningfloor = 1;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationceiling = 1;
+				rotationceiling = 17;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
-				rotationfloor = 1;
+				rotationfloor = 17;
 				xscalefloor = 1;
 				yscalefloor = 1;
-			}
-			
-			thing
-			{
-				1 = 3;
-				2 = 3;
-				4 = 3;
-				32 = 3;
-				64 = 3;
-				128 = 3;
-				256 = 3;
-				512 = 3;
-				1024 = 3;
+				lightcolor = 10;
 			}
 		}
 	}
