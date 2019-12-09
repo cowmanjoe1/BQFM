@@ -16,9 +16,9 @@ maps
 		}
 		defaulttoptexture = "ROCKRED1";
 		overridemiddletexture = false;
-		viewpositionx = 668.0145f;
-		viewpositiony = 1800.191f;
-		viewscale = 1.352534f;
+		viewpositionx = -75.0735f;
+		viewpositiony = 263.3051f;
+		viewscale = 1.758294f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
