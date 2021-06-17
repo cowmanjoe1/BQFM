@@ -13,12 +13,21 @@ maps
 		
 		resources
 		{
+			
+			resource0
+			{
+				type = 0;
+				location = "C:\\Users\\dudar\\Documents\\GzDoom\\DOOM2.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
 		}
 		defaulttoptexture = "ROCKRED1";
 		overridemiddletexture = false;
-		viewpositionx = -75.0735f;
-		viewpositiony = 263.3051f;
-		viewscale = 1.758294f;
+		viewpositionx = -926.6492f;
+		viewpositiony = 1437.723f;
+		viewscale = 2.285781f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -76,11 +85,35 @@ maps
 				yscalefloor = 1;
 				damagetype = 2;
 				damageamount = 0;
+				damageinterval = 0;
 				floorglowcolor = 0;
 				floorglowheight = 1;
 				rotationceiling = 1;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				activetab = true;
 			}
 		}
 	}
